@@ -2,8 +2,9 @@
   "name": "advent-of-code-2020",
   "version": "1.0.0",
   "description": "Advent of Code 2020",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
+    "start": "tsc && node dist/index.js",
     "test": "test"
   },
   "author": "Łukasz Lalik",
