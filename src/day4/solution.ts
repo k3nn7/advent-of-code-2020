@@ -1,6 +1,5 @@
 import * as rd from 'readline';
 import * as fs from 'fs';
-import { PassThrough } from 'stream';
 
 const input = fs.createReadStream('src/day4/input');
 const reader = rd.createInterface(input);
